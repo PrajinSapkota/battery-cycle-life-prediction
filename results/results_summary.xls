@@ -1,0 +1,16 @@
+Experiment,Model,MAE,RMSE,R2
+SOH,Linear Regression,0.0196,0.0251,0.6991
+SOH,Random Forest,0.017,0.0268,0.6576
+SOH,XGBoost,0.0155,0.0238,0.7312
+SOH,SVR,0.0152,0.0206,0.7985
+RUL (with capacity trend),Linear Regression,157.4855,209.1213,0.6486
+RUL (with capacity trend),Random Forest,76.37,117.0401,0.8899
+RUL (with capacity trend),XGBoost,78.0645,121.5768,0.8812
+RUL (with capacity trend),SVR,111.5402,158.0944,0.7992
+RUL (with capacity trend),XGBoost (tuned),75.1013,117.0354,0.8899
+RUL (with capacity trend),Random Forest (tuned),72.3911,112.0863,0.899
+RUL (with capacity trend),SVR (tuned),88.1001,133.3544,0.8571
+RUL (no capacity trend),Linear Regression,177.3305,239.9196,0.5375
+RUL (no capacity trend),Random Forest,116.625,169.9089,0.768
+RUL (no capacity trend),XGBoost,119.2303,170.0412,0.7677
+RUL (no capacity trend),SVR,184.4537,272.9591,0.4013
